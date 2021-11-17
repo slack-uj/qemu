@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+   
+    |---------------------------handy-ruler-----------------------------------|
+qemu: QEMU is a generic and open source machine emulator and virtualizer.
+qemu:
+qemu: QEMU can be used for "system emulation" or for "user mode emulation".In
+qemu: system emulation it provides a virtual model of an entire machine(CPU,me
+qemu: mory and emulated devices)to run a guest OS.In this mode the CPU may be 
+qemu: may be fully emulated,or it may work with a hypervisor such as KVM,XEN,
+qemu: Hax or Hypervisor.Framework to allow the guest to run directly on the 
+qemu: host CPU.User Mode Emulation can launch processes compiled for one CPU 
+qemu: on another CPU.In this mode the CPU is always emulated.
+qemu: 
+qemu: https://www.qemu.org/docs/master/index.html 
