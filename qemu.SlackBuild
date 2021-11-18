@@ -52,7 +52,7 @@ OUTPUT={OUTPUT:-/tmp}
 SOURCE=$TMP/source/*
 
 #automatically detect the architecture we're building on:
-if[-z "$ARCH"];then
+if [ -z "$ARCH" ]; then
 	case "$(uname -m)" in
 		i?86)export ARCH=i486;;
 		arm*)export ARCH=arm;;
