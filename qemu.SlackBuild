@@ -1,5 +1,5 @@
 #!/bin/sh 
-#pkg_intro
+#QEMU is a generic and open source machine emulator and virtualizer.
 #Copyright(C) 11/17/2021 Umesh Joshi
 #
 #
